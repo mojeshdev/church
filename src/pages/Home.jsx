@@ -30,7 +30,7 @@ const Home = () => {
               YSM Ministries
             </span>
           </h2>
-          <p className="mt-4 text-gray-500 max-w-sm font-body">
+          <p className="mt-4 text-gray-300 max-w-sm font-body">
             <span className="font-semibold font-body text-yellow-400">
               Prasangi Kumar
             </span>{" "}
@@ -58,7 +58,7 @@ const Home = () => {
 
         {/* Optionally another section or text */}
         <div className="text-center md:text-left">
-          <p className="text-gray-500 max-w-xl mx-auto mt-4">
+          <p className="text-gray-300 max-w-xl mx-auto mt-4">
             <span className="text-green-400 font-semibold font-body">
               {" "}
               Judah Vadlamudi
@@ -71,7 +71,7 @@ const Home = () => {
         </div>
       </div>
       <div className="p-20">
-        <p className="text-gray-400 max-w-6xl mx-auto mt-4">
+        <p className="text-gray-300 max-w-6xl mx-auto mt-4">
           దేవుని నామములో వందనాలు.. నా పేరు ప్రసంగి కుమార్ వడ్లమూడి. నేను మా
           తల్లీ తండ్రులు వడ్లమూడి యూదా, శారా లకు ఆరవ సంతానం. మా తల్లిదండ్రులు
           పెనమలూరు మండలం గంగూరు గ్రామంలో జీవిస్తూ దేవుని సేవకుడు గడ్డం సత్యం

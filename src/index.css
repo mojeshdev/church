@@ -11,16 +11,3 @@ body{
     color: black;
 }
 
-/* optional fade-in for the overlay (tailwind arbitrary not needed) */
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(.995); }
-  to { opacity: 1; transform: scale(1); }
-}
-.animate-fadeIn { animation: fadeIn 200ms ease-in-out; }
-
-/* small utility to clamp long captions, requires line-clamp plugin or simple fallback */
-.line-clamp-1 {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}

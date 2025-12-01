@@ -29,7 +29,7 @@ const teluguParagraphs = [
 ];
 
 const englishParagraphs = [
-  `Greetings in the Name of the Lord! My name is Preacher Kumar Vadlamudi, and I am the sixth child of my parents, Mr. Vadlamudi Judah and Mrs. Sarah. They lived in Ganguru village, Penamaluru Mandal, and were faithful believers in Christ. After receiving baptism under the ministry of God’s servant Rev. Gaddam Satyam, they remained steadfast in fellowship while supporting their family through farming.`,
+  `Greetings in the Name of the Lord! My name is Prasangi Kumar Vadlamudi, and I am the sixth child of my parents, Mr. Vadlamudi Judah and Mrs. Sarah. They lived in Ganguru village, Penamaluru Mandal, and were faithful believers in Christ. After receiving baptism under the ministry of God’s servant Rev. Gaddam Satyam, they remained steadfast in fellowship while supporting their family through farming.`,
 
   `God spoke to my father through a vision and called him to serve in Chintagunta village, Gannavaram Mandal. He obeyed God’s call and faithfully ministered there while raising all six of us with great care and dedication.`,
 
@@ -87,7 +87,7 @@ export default function About() {
       </div>
 
       {/* Title */}
-      <h2 className="text-3xl font-bold text-blue-800 font-heading mb-4">
+      <h2 className="text-3xl font-bold text-blue-900 font-heading mb-4">
         {language === "telugu" ? "మా సంఘం గురించి" : "About Our Church"}
       </h2>
 
@@ -96,7 +96,7 @@ export default function About() {
         {paragraphs.map((para, idx) => (
           <p
             key={idx}
-            className="text-gray-700 leading-relaxed mb-4 font-body"
+            className="text-gray-300 leading-relaxed mb-4 font-body"
             style={{ whiteSpace: "pre-line" }}
           >
             {para}

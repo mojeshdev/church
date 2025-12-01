@@ -19,7 +19,7 @@ export default function Footer() {
 
         {/* Column 2: Contact Info */}
         <div>
-          <h2 className="text-2xl font-serif font-bold mb-3 font-heading">Contact Us</h2>
+          <h2 className="text-2xl font-bold mb-3 font-heading">Contact Us</h2>
           <ul className="space-y-2 text-gray-200">
             <li className="flex justify-center md:justify-start items-center gap-2">
               <Mail size={18} /> 
@@ -37,7 +37,7 @@ export default function Footer() {
 
         {/* Column 3: Social Links */}
         <div>
-          <h2 className="text-2xl font-bold font-serif mb-3 font-heading">Follow Us</h2>
+          <h2 className="text-2xl font-bold  mb-3 font-heading">Follow Us</h2>
           <div className="flex justify-center md:justify-start gap-5 mt-2">
            <Tooltip />
           </div>
