@@ -70,7 +70,8 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="p-20">
+      <div className="p-4">
+        <h1 className="text-blue-700 text-3xl font-bold text-center">About</h1>
         <p className="text-gray-300 max-w-6xl mx-auto mt-4">
           దేవుని నామములో వందనాలు.. నా పేరు ప్రసంగి కుమార్ వడ్లమూడి. నేను మా
           తల్లీ తండ్రులు వడ్లమూడి యూదా, శారా లకు ఆరవ సంతానం. మా తల్లిదండ్రులు
